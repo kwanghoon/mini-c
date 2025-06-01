@@ -8,7 +8,6 @@
     extern FILE *yyin;
 
     int yylex();
-    // void yyerror(const char *s);
     void yyerror (char const *s) {
      fprintf (stderr, "%s\n", s);
     }
